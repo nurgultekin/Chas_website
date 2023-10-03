@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+}
+
+.backgroundimg {
+    background-image: url("backgroundmain.jpg");
+    opacity: 70%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(2, 62, 139);
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position:sticky;
+  top: 0px;
+}
+
+.logo {
+  display:flex;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  width: 60px;
+  height:60px;
+  margin-left: 30px;
+
+}
+
+/* the top navigation bar */
+
+.top-nav {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.left-nav a {
+  text-decoration: none;
+  color: #f0e6e6;
+  font-weight: bold;
+}
+
+.right-nav {
+  display: flex;
+  gap: 20px; /* Adjust the gap to create spacing */
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* the navigation links on hover in the top bar */
+.top-nav a:hover {
+  color: hsl(25, 56%, 87%); /* Change the color to your preferred hover color */
+}
+
+.hero {
+  background-image: url("background.jpg");
+  background-size: cover;
+  border-radius:30%;
+  background-position: center;
+  opacity: 60%;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-position: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 100px;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e65100;
+}
+
+/*Styling of the page "om oss"*/
+
+*{
+    margin: 10px;
+
+
+}
+
+.box1 {
+    background-position: row;
+    border-bottom: 1px solid black;
+    border-spacing: 10px;
+  
+}
+
+.box2 {
+    background-position: row;
+}
+
+.section {
+    display:flex;
+    align-items: center;
+
+}
+.titlechas {
+    font-weight: 200;
+    font-size:xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    text-align-last: center;
+}
+
+.subtitle {
+    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align-last: center;
+}
+
+.textwhite {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    text-align: center;
+    margin: 70px;
+}
+.readmore {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.reviews {
+    display:flex;
+    image-orientation: row;
+    align-content: center;
+
+}
+
+.imgcontainer {
+    display: flex;
+    position:cover;
+    margin: auto;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    width:200px;
+    height:auto;
+    object-fit: cover;
+    border:#333;
+}
+
+.image1 {
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    position:relative;
+}
+
+.whatsays {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: wheat;
+}
+
+/*The division with call for action Ansök nu*/
+
+.a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:wheat;
+    border-top: 1px solid black;
+
+}
