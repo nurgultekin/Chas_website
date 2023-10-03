@@ -2,13 +2,12 @@
   margin: 0px;
 }
 html {
-    scroll-behavior: smooth;
-  }
-  
+  scroll-behavior: smooth;
+}
 
 .backgroundimg {
-    background-image: url("backgroundmain.jpg");
-    opacity: 70%;
+  background-image: url("backgroundmain.jpg");
+  opacity: 70%;
 }
 
 body {
@@ -16,34 +15,33 @@ body {
   padding: 0;
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-  background-color: rgba(0,1,46,255);
+  background-color: rgba(0, 1, 46, 255);
 }
 
 header {
-    background-color: rgba(15, 133, 159, 0.2); /* 20% transparent */
-    color: #fff;
-    padding: 10px;
-    position: sticky;
-    top: 0px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for edges */
-  }  
+  background-color: rgba(15, 133, 159, 0.2); /* 20% transparent */
+  color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for edges */
+}
 
 .logo {
-  display:flex;
+  display: flex;
   margin-top: 0px;
   margin-bottom: 1px;
   width: 60px;
-  height:60px;
+  height: 60px;
   margin-left: 30px;
-
 }
 
 /* the top navigation bar */
 
 .top-nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
 .left-nav a {
@@ -69,13 +67,14 @@ header {
 }
 
 .hero {
-    background: linear-gradient(rgba(2, 62, 139, 0.1), rgba(2, 62, 139, 0.4)), url("background.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #fff;
-    padding: 100px 0;
-  }
+  background: linear-gradient(rgba(2, 62, 139, 0.1), rgba(2, 62, 139, 0.4)),
+    url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
 
 .hero-container {
   display: flex;
@@ -114,252 +113,251 @@ header {
 
 /*Styling of the page "om oss"*/
 
-*{
-    margin: 10px;
-
-
+* {
+  margin: 10px;
 }
 
 .box1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:200px;
-  }
-  
-  .image-container {
-    flex: 1;
-    padding: 0px; /* Adjust the padding to your preference */
-    justify-content: right;
-  }
-  
-  .image1 {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30%;
-    padding-right: 0%;
-    margin-right: 0%;
-  }
-  
-  .text-container {
-    flex: 1;
-    padding-right: 400px; /* Adjust the padding to your preference */
-    text-align: center;
-  }
-  
-  .titlechas {
-    font-size: xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    padding-top: 200px;
-  }
-  .programsToSee {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-size: large;
-    padding:20px;
-    outline-color: #f0e6e6;
-  }
-  
-  .kannaoss {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    padding-bottom: 150px;
-  }
-  
-  .ansok {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    padding-bottom: 150px;
-    padding-top:50px;
-  }
-  
-  
-.readmore {
-    padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
 }
 
-.box2 {
-    text-align: center;
-  }
-  
-.reviews {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px; /* Adjust the spacing between images */
-  }
-  
-.review-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-.review-image img {
-    width: 200px; /* Adjust the width of the images */
-    height: 200px;
-    object-fit: cover;
-    border-radius: 30%;
-  }
-  
-.review-image q {
-    margin-top: 10px; /* Adjust the spacing between the image and text */
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    max-width:250px;
-  }
-
-
-.imgcontainer {
-    display: flex;
-    position:cover;
-    margin: auto;
-    align-items: center;
-}
-
-img {
-    display: flex;
-    width:200px;
-    height:auto;
-    object-fit: cover;
-    border:#333;
+.image-container {
+  flex: 1;
+  padding: 0px; /* Adjust the padding to your preference */
+  justify-content: right;
 }
 
 .image1 {
-    width: 300px;
-    height: auto;
-    justify-content: center;
-    position:relative;
+  max-width: 100%;
+  height: auto;
+  border-radius: 30%;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+.text-container {
+  flex: 1;
+  padding-right: 400px; /* Adjust the padding to your preference */
+  text-align: center;
+}
+
+.titlechas {
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+.programsToSee {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: large;
+  padding: 20px;
+  outline-color: #f0e6e6;
+}
+
+.kannaoss {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  padding-bottom: 150px;
+}
+
+.ansok {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.readmore {
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+
+.box2 {
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; /* Adjust the spacing between images */
+}
+
+.review-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.review-image img {
+  width: 200px; /* Adjust the width of the images */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
+.review-image q {
+  margin-top: 10px; /* Adjust the spacing between the image and text */
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  max-width: 250px;
+}
+
+.imgcontainer {
+  display: flex;
+  position: cover;
+  margin: auto;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border: #333;
+}
+
+.image1 {
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  position: relative;
 }
 
 .whatsays {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: wheat;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: wheat;
 }
 
 /*The division with call for action Ansök nu*/
 
 .a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: wheat;
-    border-top: 1px rgba(27,123,165,255) solid;
-    margin-bottom: 20px; 
-    margin-top: 20px; 
-  }
-  
-  .cta-container {
-    text-align: center;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(226, 226, 226, 0.3); /* RGBA color with 30% transparency */
-    color: #fff;
-    -webkit-text-stroke: 1px #6583a5; /* Width and color of the text stroke */
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #e65100;
-  }
-  
-  /*Styling the utbildningar elements as CTAs*/
-  .cta-columns {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .cta-column {
-    flex: 0 1 calc(30% - 10px); /* Adjust the width as needed; 10px is for spacing */
-  }
-  
-  .cta-button {
-    display: block;
-    margin-bottom: 10px; /* Adjust spacing between buttons */
-  }
-  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: wheat;
+  border-top: 1px rgba(27, 123, 165, 255) solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cta-container {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(
+    226,
+    226,
+    226,
+    0.3
+  ); /* RGBA color with 30% transparency */
+  color: #fff;
+  -webkit-text-stroke: 1px #6583a5; /* Width and color of the text stroke */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e65100;
+}
+
+/*Styling the utbildningar elements as CTAs*/
+.cta-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-column {
+  flex: 0 1 calc(30% - 10px); /* Adjust the width as needed; 10px is for spacing */
+}
+
+.cta-button {
+  display: block;
+  margin-bottom: 10px; /* Adjust spacing between buttons */
+}
+
 /*Styling the footer elements*/
 footer {
-    background-color: rgba(15, 133, 159, 0.2); /* 20% transparent */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for edges */
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .footer-left {
-    display: flex;
-  }
-  
-  .column {
-    margin-right: 20px;
-  }
-  
-  .column h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .column ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .column ul li {
-    margin-bottom: 5px;
-  }
-  
-  .column ul li a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .logo {
-    width: 100px; /* Adjust logo size as needed */
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .follow-us h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
+  background-color: rgba(15, 133, 159, 0.2); /* 20% transparent */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for edges */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-  }
-  
-  .social-icons {
-    display: flex; /* Display icons in a row */
-  }
-  
-  .social-icons img {
-    width: 30px; /* Adjust social media icon size as needed */
-    height: 30px;
-    margin-right: 10px; /* Adjust spacing between icons */
-  }
-  
+.footer-left {
+  display: flex;
+}
+
+.column {
+  margin-right: 20px;
+}
+
+.column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 5px;
+}
+
+.column ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Adjust logo size as needed */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.follow-us h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex; /* Display icons in a row */
+}
+
+.social-icons img {
+  width: 30px; /* Adjust social media icon size as needed */
+  height: 30px;
+  margin-right: 10px; /* Adjust spacing between icons */
+}
