@@ -52,7 +52,7 @@ header {
 
 .right-nav {
   display: flex;
-  gap: 20px; /* Adjust the gap to create spacing */
+  gap: 20px; /* Adjusting the gap to create spacing between navigation elements*/
 }
 
 .right-nav a {
@@ -63,7 +63,7 @@ header {
 
 /* the navigation links on hover in the top bar */
 .top-nav a:hover {
-  color: hsl(25, 56%, 87%); /* Change the color to your preferred hover color */
+  color: hsl(25, 56%, 87%); /*  the color to my preferred hover color */
 }
 
 .hero {
@@ -126,7 +126,7 @@ header {
 
 .image-container {
   flex: 1;
-  padding: 0px; /* Adjust the padding to your preference */
+  padding: 0px; 
   justify-content: right;
 }
 
@@ -140,7 +140,7 @@ header {
 
 .text-container {
   flex: 1;
-  padding-right: 400px; /* Adjust the padding to your preference */
+  padding-right: 400px; 
   text-align: center;
 }
 
@@ -242,7 +242,7 @@ img {
   color: wheat;
 }
 
-/*The division with call for action Ansök nu*/
+/*The division with CTA 'Ansök nu'*/
 
 .a {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -267,7 +267,7 @@ img {
     0.3
   ); /* RGBA color with 30% transparency */
   color: #fff;
-  -webkit-text-stroke: 1px #6583a5; /* Width and color of the text stroke */
+  -webkit-text-stroke: 1px #6583a5; /* Width and color of the text stroke. Outline of the letters*/
   font-weight: bold;
   text-decoration: none;
   font-size: 20px;
@@ -286,7 +286,7 @@ img {
 }
 
 .cta-column {
-  flex: 0 1 calc(30% - 10px); /* Adjust the width as needed; 10px is for spacing */
+  flex: 0 1 calc(30% - 10px); /* Adjust the width. 10px is for spacing */
 }
 
 .cta-button {
@@ -340,7 +340,7 @@ footer {
 }
 
 .logo {
-  width: 100px; /* Adjust logo size as needed */
+  width: 100px; 
   height: auto;
   margin-bottom: 20px;
 }
@@ -357,7 +357,7 @@ footer {
 }
 
 .social-icons img {
-  width: 30px; /* Adjust social media icon size as needed */
+  width: 30px; 
   height: 30px;
   margin-right: 10px; /* Adjust spacing between icons */
 }
