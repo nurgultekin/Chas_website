@@ -189,20 +189,35 @@ header {
     text-align: center;
   }
   
-  .reviews {
+.reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px; /* Adjust the spacing between images */
   }
   
-  .review-image img {
+.review-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+.review-image img {
     width: 200px; /* Adjust the width of the images */
     height: 200px;
     object-fit: cover;
     border-radius: 30%;
   }
   
+.review-image q {
+    margin-top: 10px; /* Adjust the spacing between the image and text */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width:250px;
+  }
+
 
 .imgcontainer {
     display: flex;
